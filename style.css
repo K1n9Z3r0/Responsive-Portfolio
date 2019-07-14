@@ -1,0 +1,100 @@
+body {
+    background-color: #979797;
+}
+
+#header {    
+  width: 980px; 
+      margin: auto;
+              border: 2px;
+                   clear: both;
+}
+
+#name {
+color: white;
+  font-weight: bold;
+    font-size: x-large;
+      margin-top: 0%;
+        float: left;
+          height: 30px;
+            padding: 15px;
+              width: auto;
+                background: #55a9f7;
+}
+
+#contact {
+font-size: large;
+  float: right;
+    width: auto;
+      height: 30px;
+}
+
+.contact{
+  float: right;
+}
+
+.container {
+  clear: both;
+    width: 980px;
+      margin-top: 10px;
+        margin: auto;
+}
+
+
+#about-me {
+    font-weight: bolder;
+        font-size: xx-large;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+      padding: 12px;
+        border: 1px solid #ccc;
+          border-radius: 4px;
+            box-sizing: border-box;
+              margin-top: 6px;
+                margin-bottom: 16px;
+                  resize: vertical;
+  }
+  
+
+  input[type=submit] {
+    background-color: #006699;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  input[type=submit]:hover {
+    background-color: #004488;
+  }
+  
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+
+  .img {
+      width: 33%;
+        height: auto;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    border-top: 5px solid #006699;
+    color: white;
+    text-align: center;
+  }
+
+  <link rel="stylesheet" media="screen and (min-width: 980px)" href="largescreen.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="mediumscreen.css">
+  <link rel="stylesheet" media="screen and (max-width: 640px)" href="smallscreen.css">
